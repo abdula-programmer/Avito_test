@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/abdula-programmer/Avito_test/static/css/main.ace7bf0b.css",
+    "main.js": "/abdula-programmer/Avito_test/static/js/main.fd4df765.js",
+    "index.html": "/abdula-programmer/Avito_test/index.html",
+    "main.ace7bf0b.css.map": "/abdula-programmer/Avito_test/static/css/main.ace7bf0b.css.map",
+    "main.fd4df765.js.map": "/abdula-programmer/Avito_test/static/js/main.fd4df765.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ace7bf0b.css",
+    "static/js/main.fd4df765.js"
+  ]
+}
