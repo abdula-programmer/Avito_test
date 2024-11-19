@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/abdula-programmer/Avito_test/static/css/main.ace7bf0b.css",
-    "main.js": "/abdula-programmer/Avito_test/static/js/main.2d381343.js",
-    "index.html": "/abdula-programmer/Avito_test/index.html",
-    "main.ace7bf0b.css.map": "/abdula-programmer/Avito_test/static/css/main.ace7bf0b.css.map",
-    "main.2d381343.js.map": "/abdula-programmer/Avito_test/static/js/main.2d381343.js.map"
+    "main.css": "/Avito_test/static/css/main.ace7bf0b.css",
+    "main.js": "/Avito_test/static/js/main.7e87a149.js",
+    "index.html": "/Avito_test/index.html",
+    "main.ace7bf0b.css.map": "/Avito_test/static/css/main.ace7bf0b.css.map",
+    "main.7e87a149.js.map": "/Avito_test/static/js/main.7e87a149.js.map"
   },
   "entrypoints": [
     "static/css/main.ace7bf0b.css",
-    "static/js/main.2d381343.js"
+    "static/js/main.7e87a149.js"
   ]
 }
