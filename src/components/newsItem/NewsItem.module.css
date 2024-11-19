@@ -1,0 +1,23 @@
+.news-item {
+  margin-bottom: 20px;
+  padding: 10px;
+  color: #000;
+  border: 1px #000 solid;
+  border-radius: 15px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.rgth-data {
+    display: flex;
+    flex-direction: column;
+}
+
+.score {
+  text-align: right;
+}
