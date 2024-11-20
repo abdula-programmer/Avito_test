@@ -1,0 +1,8 @@
+.comments-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.update-btn {
+  height: 30px;
+}

@@ -13,21 +13,6 @@
   justify-content: space-between;
 }
 
-.update-btn {
-    padding: 0 10px;
-  border: none;
-  border-radius: 10px;
-  text-decoration: none;
-  color: white;
-  background: #0b63f6;
-  box-shadow: 0 5px 0 #003cc5;
-}
 
-.update-btn:hover {
-  background: #003cc5;
-  box-shadow: none;
-  position: relative;
-  top: 5px;
 
-  cursor: pointer;
-}
+

@@ -1,0 +1,32 @@
+.news-title {
+
+}
+
+.news-url {
+    text-decoration: none;
+    color: #000;
+    transition: 0.4s all;
+}
+
+.news-url:hover {
+    color: #424141;
+
+}
+
+.news-description {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0 25px 0;
+}
+
+.back-button {
+    border: 1px solid #000;
+    outline: none;
+    background:  none;
+    padding: 5px;
+}
+
+.back-button a {
+    text-decoration: none;
+    color: #000;
+}

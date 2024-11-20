@@ -1,15 +1,10 @@
-import React, { useEffect } from "react";
-// Хуки находятся в react-redux
-import { useDispatch } from "react-redux";
-import { getNews } from "../slices/newsSlice";
+import React from "react";
 import NewsList from "./newsList";
 import styles from "./App.module.css";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-
-import News from "./news/News";
+import { Route, Switch } from "react-router-dom";
+import News from "./news";
 
 const App = () => {
-
   return (
     <div className={styles["app"]}>
       <Switch>

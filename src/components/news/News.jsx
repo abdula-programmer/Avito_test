@@ -6,6 +6,7 @@ import { useDispatch, useSelector } from "react-redux";
 import formatDate from "../../utils/formatDate";
 import Comments from "../comment/Comments";
 import { Loader } from "../UI";
+import { Link } from "react-router-dom";
 
 const News = () => {
   const { id } = useParams();
@@ -18,6 +19,9 @@ const News = () => {
     error,
   } = useSelector((state) => state.activeNews);
 
+  console.log((state) => state.activeNews);
+  
+
   useEffect(() => {
     dispatch(getActiveNews(id));
   }, [dispatch]);
@@ -27,11 +31,15 @@ const News = () => {
 
   return (
     <div className={styles["news"]}>
+      <button className={`${styles['back-button']}`}>
+        <Link to="/">Back to news</Link>
+      </button>
+
       {loading && <Loader />}
       {!loading && !error && (
         <div>
           <h1 className={styles["news-title"]}>
-            <a href={url}>{title}</a>
+            <a  className={styles['news-url']} href={url}>{title}</a>
           </h1>
           <div className={styles["news-description"]}>
             <h4 className={styles["author"]}>{author}</h4>

@@ -5,6 +5,7 @@ import styles from "./NewList.module.css";
 import { getNews } from "../../slices/newsSlice";
 import { clearNewsState } from "../../slices/activeNewsSlice";
 import Loader from "../UI/Loader";
+import stylesGeneral from '../App.module.css'
 
 const NewsList = () => {
   const [intervalId, setIntervalId] = useState(null);
@@ -43,7 +44,7 @@ const NewsList = () => {
     <div className={styles["news-list-container"]}>
       <div className={styles['header']}>
         <h1 className={styles["news-list__header"]}>Новости</h1>
-        <button className={styles['update-btn']} onClick={updateData}>Обновить</button>
+        <button className={stylesGeneral['update-btn']} onClick={updateData}>Обновить</button>
       </div>
 
       {loading && <Loader/>}
