@@ -19,7 +19,6 @@ const News = () => {
     error,
   } = useSelector((state) => state.activeNews);
 
-  console.log((state) => state.activeNews);
   
 
   useEffect(() => {
